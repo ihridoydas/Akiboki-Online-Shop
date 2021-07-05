@@ -1,0 +1,11 @@
+	   <div class="hr_style">
+             <hr class="style2">
+			 <hr class="middle1">
+			 <div class="headline">
+			 <h4>Team <h4>
+			 </div>
+			</div>
+	
+			<!-- Team section -->
+			<?php include("includes/team.php"); ?>
+		<!--End Team section -->

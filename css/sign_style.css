@@ -1,0 +1,190 @@
+
+/* let start laptop mobile view*/
+@media screen and (max-width:908px){
+.container_sign {
+  width:100%:
+}
+
+}
+
+@media screen and (max-width:508px){
+.container_sign {
+  width:98%:
+}
+
+.container_sign form {
+  text-align: left;
+}
+.container_sign h2 {
+  text-align: center;
+  font-size: 12px;
+  color: #2a2e2f;
+  text-shadow:2px 3px 8px #717879;
+  margin: 0 0 0.3em;
+  font-family: sans-serif,helvetica;
+}
+.container_sign .form-row {
+  position: relative;  
+  margin-bottom: 10px;
+}
+.container_sign input {
+  font-size: 8px;
+  padding: 4px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign option {
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign textarea {
+  font-size: 10px;
+  padding: 8px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign button {
+  text-transform: uppercase;
+  background: #0d5c6c;
+  border: none;
+  outline: none;
+  margin-top: 0px;
+  padding:5px;
+  border-radius: 3px;
+  color: #e7e7e7;
+  font-size: 10px;
+  opacity: 1;
+  transition:opacity 0.5s ease-out;
+}
+.container_sign button:hover {
+  opacity: 0.4;
+}
+
+/* Label Styles */
+.container_sign form label {
+  background: #fff;
+  color: #0d5c6c;
+  z-index: -1;
+  font-size: 8px;
+  font-weight: 200;
+  left: .50em;
+  opacity: 0;
+  padding: 0 .10em;
+  position: absolute;
+  top: 10px;
+  -webkit-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -moz-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.container_sign form label.display {
+  color: #4481c4;
+}
+.container_sign form  label.show {
+  opacity: 1;
+  top: -1em;
+  z-index: 1;
+   margin-left: 70px;
+}
+
+}
+
+
+
+
+
+/* let End laptop mobile view*/
+.container_sign {
+  margin: 0px auto;
+  width:100%:
+}
+
+.container_sign form {
+  text-align: center;
+}
+.container_sign h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  text-shadow:2px 3px 8px green;
+  margin: 0 0 0.3em;
+  font-family: sans-serif,helvetica;
+}
+.container_sign .form-row {
+  position: relative;  
+  margin-bottom: 22px;
+}
+.container_sign input {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign option {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign textarea {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #cbcbda;
+  border-radius: 3px;
+}
+.container_sign button {
+  text-transform: uppercase;
+  background: #0d5c6c;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 3px;
+  color: #e7e7e7;
+  font-size: 12px;
+  opacity: 1;
+  transition:opacity 0.5s ease-out;
+  width:70px;
+  height:40px;
+}
+.container_sign button:hover {
+  opacity: 0.5;
+}
+
+/* Label Styles */
+.container_sign form label {
+  background: #fff;
+  color: #0d5c6c;
+  z-index: -1;
+  font-size: 10px;
+  font-weight: 300;
+  left: .50em;
+  opacity: 0;
+  padding: 0 .12em;
+  position: absolute;
+  top: 12px;
+  -webkit-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -moz-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.container_sign form label.display {
+  color: #4481c4;
+}
+.container_sign form  label.show {
+  opacity: 1;
+  background:#361E36;
+  color:white;
+  top: -1em;
+  z-index: 1;
+   margin-left: 85px;
+}
+/* profile Styles */
+.profile{width:100%;background:#fff;height:640px;border-radius:10px}
+.pro_left{width:30%;background:#fff;height:auto;float:left;border-radius:5px}
+.pro_right{width:70%;background:#fff;height:auto;float:right;border-radius:5px}
+
+
+.pro_img{width:55%;float:left}
+.pro_con{width:40%;float:right}
+

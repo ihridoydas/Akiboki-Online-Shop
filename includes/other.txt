@@ -1,0 +1,28 @@
+				
+		<?php
+		
+		include("includes/panel/connect.php");
+		
+		$select_data="select * from web_deve";
+		$run_data=mysql_query($select_data);
+		while($row=mysql_fetch_array($run_data)){
+					
+					$id=$row['id'];
+					$fname=$row['fname'];
+					$uname=$row['uname'];
+					$pass=$row['pass'];
+					$email=$row['email'];
+
+					$mobile=$row['mobile'];
+					$address=$row['address'];
+					$work=$row['work'];
+					$comment=$row['comment'];
+					$sub_date=date('y-m-d');
+
+		}
+		
+		
+		
+		?>				
+						
+					

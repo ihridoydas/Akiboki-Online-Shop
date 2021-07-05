@@ -1,0 +1,62 @@
+*{box-sizing: border-box;}
+ul.checkmark li:before{content:"\2713\0020";
+line-height:26px}
+
+.main_about{width:100%}
+.main_header{}
+.heading{}
+.heading h1{color:green}
+.full_heading{color: #361e36;
+    font-size: 20px;}
+
+.{}
+
+.{}
+
+.main_middle{width:100%}
+
+.header{color:green;background:white;font-size: 20px;}
+.headerh2{}
+.full_content{margin:10px;line-height:26px;font-family: 'Sorts Mill Goudy', serif;}
+
+
+
+.{}
+
+ @media (min-width:768px){
+ .right_content{text-align:left;background:#361E36;color:white;opacity:0.90;
+width:45%;float:right;border-radius:5px;padding-bottom:15px;
+line-height:30px}
+ 
+ .left_content{text-align:left;width:54%;float:left;
+background:#361E36;color:white;opacity:0.90;
+border-radius:5px;padding-bottom:15px;}
+.side{text-align:left;width:100%;}
+.leftside{width:49%;float:left;}
+.rightside{width:51%;float:right;} 
+
+.main_process{width:100%;}
+.process_model{width:100%;margin-left:0%}
+.process_model h4{margin-left:0px}
+.meet{width:16.4%;float:left}
+.plan{width:16.4%;float:left}
+.design{width:16.4%;float:left}
+.develop{width:16.4%;float:left}
+.testing{width:16.4%;float:left}
+.launch{width:16.4%;float:right}
+
+.main_statistics{width:100%;}
+.main_s{margin-left: 7%;
+    width: 100%;}
+.c_expert{width:25%;float:left;height:160px}
+.client_work{width:25%;float:left}
+.project_com{width:25%;float:left}
+.client_set{width:25%;float:left}
+.head_body{ margin-top: 125px;
+    position: absolute}
+ 
+ }
+ 
+
+
+
